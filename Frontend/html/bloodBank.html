@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood Bank Page</title>
+    <style>
+        body{
+            display: flex;
+        }
+        .btn1{
+            border: 2px solid black;
+            width: 20vw;
+            height: 15vw;
+            margin: 2vw;
+        }
+        .right{
+            display:flex;
+            flex-wrap: wrap;
+            margin: 20px;
+            flex-direction: column;
+        }
+        .tbl{
+            width:50vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="tbl">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>30</td>
+                        <td>Male</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>25</td>
+                        <td>Female</td>
+                    </tr>
+                    <tr>
+                        <td>Michael Johnson</td>
+                        <td>40</td>
+                        <td>Male</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="right">
+                <div id="Get Request" class="btn1">Get Request</div>
+                <div id="Push Request" class="btn1"> Push Request</div>
+        </div>
+
+        
+    </div>
+</body>
+</html>

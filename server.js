@@ -12,10 +12,10 @@ app.use(fileuploader());
 app.use(express.static("Frontend"));
 
 const objConfig = {
-  host: "bloodbridgedb.c18wggm4uyzh.eu-north-1.rds.amazonaws.com",
-  user: "admin",
-  password: "myAdmin1",
-  database: "BloodBridgeDB",
+  host: "sql12.freesqldatabase.com",
+  user: "sql12717182",
+  password: "PqbuFjwic5",
+  database: "sql12717182",
   dateStrings: true, //isse hum date ko bhi fetch kr paate hain
 };
 
